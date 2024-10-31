@@ -20,7 +20,7 @@ app = Flask(__name__)
 MODEL_PATHS = {
     'EfficientNetB0': 'models/EfficientNetB0.tflite',
     'MobileNetV2': 'models/MobileNetV2.tflite',
-    'NasNetMobile': 'models/NasNetMobile.tflite'
+    'NasNetMobile': 'models/NASNetMobile.tflite'
 }
 
 # Function to load the TFLite model and allocate tensors
